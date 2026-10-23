@@ -1,3 +1,34 @@
-body{
-    background-color: rgb(206, 178, 178);
+html,
+body,
+* {
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  background-color: #08090a;
+}
+
+div {
+  height: 55rem;
+  width: 30rem;
+  background-color: #222823;
+  /* margin is space inbetween elements */
+  margin: 2.5rem 1rem;
+  padding: 1rem;
+  color: #FFFFFF;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* IDs are most specific, then class, then element.
+#test {
+    background-color: #0ff00f;
+} */
