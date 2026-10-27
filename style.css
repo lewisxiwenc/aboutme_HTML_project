@@ -28,6 +28,7 @@ body {
   width: 25rem;
   max-width: 2000rem;
   height: auto;
+  border-radius: 3rem;
 }
 
 .button1 {
