@@ -9,13 +9,13 @@ body,
 }
 
 body {
-  background-color: #08090a;
+  background-color: #11151C;
 }
 
 .maindiv {
   height: auto;
   width: 30rem;
-  background-color: #222823;
+  background-color: #212D40;
   /* margin is space inbetween elements */
   margin: 2.5rem 1rem;
   padding: 3rem;
@@ -32,18 +32,18 @@ body {
 }
 
 .button1 {
-  background-color: #7e7e7e7c;
+  background-color: #364156;
   height: 3rem;
   padding: 0 1rem;
   color: #ffffff;
   cursor: pointer;
   transition: all 0.1s;
-  border: 1px solid #5e5e5e;
+  border: 1px solid #364156;
   border-radius: 0.5rem;
   font-size: 1.5rem;
 }
 
 .button1:hover {
-  background-color: #5a5a5a7c;
+  background-color: #181d27;
 }
 /* IDs are most specific, then class, then element. */
