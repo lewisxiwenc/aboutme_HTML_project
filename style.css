@@ -5,7 +5,7 @@ body,
   margin: 0;
   padding: 0;
   font-family: Helvetica, sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 body {
@@ -13,14 +13,14 @@ body {
 }
 
 .maindiv {
-  /* height: 60rem; */
   height: auto;
   width: 30rem;
   background-color: #222823;
   /* margin is space inbetween elements */
   margin: 2.5rem 1rem;
   padding: 3rem;
-  color: #FFFFFF;
+  color: #ffffff;
+  border-radius: 1rem;
 }
 
 .catpic {
@@ -28,10 +28,18 @@ body {
   width: 25rem;
   max-width: 2000rem;
   height: auto;
-  border-radius: 3rem;
+  border-radius: 1rem;
 }
 
 .button1 {
   background-color: #7e7e7e7c;
+  height: 3rem;
+  padding: 0 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #5a5a5a7c;
 }
 /* IDs are most specific, then class, then element. */
