@@ -29,4 +29,8 @@ body {
   max-width: 2000rem;
   height: auto;
 }
+
+.button1 {
+  background-color: #7e7e7e7c;
+}
 /* IDs are most specific, then class, then element. */
