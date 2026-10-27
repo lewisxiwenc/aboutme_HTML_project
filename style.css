@@ -37,6 +37,10 @@ body {
   padding: 0 1rem;
   color: #ffffff;
   cursor: pointer;
+  transition: all 0.1s;
+  border: 1px solid #5e5e5e;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
 }
 
 .button1:hover {
