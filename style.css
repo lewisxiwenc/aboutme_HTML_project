@@ -9,13 +9,13 @@ body,
 }
 
 body {
-  background-color: #11151C;
+  background-color: #11151c;
 }
 
 .maindiv {
   height: auto;
   width: 30rem;
-  background-color: #212D40;
+  background-color: #212d40;
   /* margin is space inbetween elements */
   margin: 2.5rem 1rem;
   padding: 3rem;
@@ -45,5 +45,28 @@ body {
 
 .button1:hover {
   background-color: #181d27;
+}
+
+.link {
+  align-items: center;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(91, 102, 131, 0.5)), url("background.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  text-shadow: 0 6px 6px rgba(10, 10, 10, 0.5);
+  font-size: 2.4rem;
+  width: 70rem;
+  padding: 2rem;
 }
 /* IDs are most specific, then class, then element. */
