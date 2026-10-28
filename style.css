@@ -49,6 +49,8 @@ body {
 
 .link {
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .hero {
