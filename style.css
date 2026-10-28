@@ -47,12 +47,6 @@ body {
   background-color: #181d27;
 }
 
-.link {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 .hero {
   background-image: linear-gradient(rgba(91, 102, 131, 0.5)), url("background.png");
   background-size: cover;
