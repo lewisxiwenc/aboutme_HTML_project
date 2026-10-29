@@ -38,9 +38,10 @@ body {
   color: #ffffff;
   cursor: pointer;
   transition: all 0.1s;
-  border: 1px solid #364156;
+  border: 2px solid #364156;
   border-radius: 0.5rem;
   font-size: 1.5rem;
+  margin: 1rem;
 }
 
 .button1:hover {
@@ -65,4 +66,5 @@ body {
   width: 70rem;
   padding: 2rem;
 }
+
 /* IDs are most specific, then class, then element. */
