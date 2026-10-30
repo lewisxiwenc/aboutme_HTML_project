@@ -13,8 +13,8 @@ body {
 }
 
 .maindiv {
-  height: auto;
-  width: 30rem;
+  height: 30rem;
+  width: auto;
   background-color: #212d40;
   /* margin is space inbetween elements */
   margin: 2.5rem 1rem;
@@ -22,12 +22,13 @@ body {
   color: #ffffff;
   border-radius: 1rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: wrap;
   justify-content: space-around;
   align-items: center;
 }
 
 .title {
+  width: 30rem;
   gap: 5rem;
 }
 
